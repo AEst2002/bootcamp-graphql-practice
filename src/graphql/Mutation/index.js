@@ -1,5 +1,6 @@
 const merge = require('lodash.merge')
+const Books = require('./Books')
 
-const resolvers = []
+const resolvers = [Books]
 
 module.exports = merge(...resolvers)
